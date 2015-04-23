@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    color: black;
+}
+article, aside, nav {
+    display: block;
+}
+
+header, footer, section {
+    display: block;
+    width: 1000px;
+    margin: 0 10px;
+}
+
+nav ul {
+    background: #3BB4DF;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 980px;
+}
+
+nav ul li {
+    float: left;
+    background: #3BB4DF;
+    margin: 0;
+}
+
+nav ul li:hover {
+    background: #f56923;
+
+}
+
+nav ul li:hover a {
+    color: #141414;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 30px;
+    color: #141414;
+    text-decoration: none;
+}
+
+nav ul li {
+    padding: 0 0;
+    color: #141414;
+    text-decoration: none;
+}
+
+.banner{
+    clear: both;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 1000px;
+}
+
+.logo_area{
+    float: left;
+    height: 90px;
+}
+
+.logo {
+    height: 70px;
+    position: relative;
+    top: 13px;
+    left: 10px;
+}
+
+.strapline_area {
+    float: left;
+    position: relative;
+    top: 60px;
+    left: 420px;
+}
+
+.strapline_square {
+    width: 20px;
+    height: 20px;
+}
+
+.strapline {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: gray;
+}
+
+.bottommessage{
+    clear: both;
+    margin: 0 0 0 0;
+    padding: 10px 10px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: black;
+    font-weight: normal;
+    background-color: silver;
+    width: 980px;
+    text-align: center;
+}

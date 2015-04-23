@@ -9,15 +9,12 @@ body {
 .page_frame{
     width: 1000px;
     margin: 0 10px;
-   /* background-color: #FFFFFF; */
-
 }
 
 .title_area {
     float: none;
     margin: 0;
     padding: 0;
-    width: 1000px;
 }
 
 .logo_area{
