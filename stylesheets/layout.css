@@ -6,18 +6,63 @@ body {
     color: black;
 }
 
-.page_frame{
+article, aside, nav {
+    display: block;
+}
+
+header, footer, section {
+    display: block;
     width: 1000px;
-    margin: 0 10px;
+    margin: 0 auto;
 }
 
-.title_area {
-    float: none;
+nav ul {
+    background: #3BB4DF;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 980px;
+}
+
+nav ul li {
+    float: left;
+    background: #3BB4DF;
     margin: 0;
-    padding: 0;
 }
 
-.logo_area{
+nav ul li:hover {
+    background: #f56923;
+
+}
+
+nav ul li:hover a {
+    color: #141414;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 30px;
+    color: #141414;
+    text-decoration: none;
+}
+
+nav ul li {
+    padding: 0 0;
+    color: #141414;
+    text-decoration: none;
+}
+
+.banner {
+    clear: both;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 1000px;
+}
+
+.logo_area {
     float: left;
     height: 90px;
 }
@@ -29,14 +74,14 @@ body {
     left: 10px;
 }
 
-.strapline_area{
+.strapline_area {
     float: left;
     position: relative;
     top: 60px;
     left: 420px;
 }
 
-.strapline_square{
+.strapline_square {
     width: 20px;
     height: 20px;
 }
@@ -47,12 +92,21 @@ body {
     color: gray;
 }
 
-.site-inner{
-    margin-top: 0;
-    margin-bottom: 0;
+.bottommessage {
+    clear: both;
+    margin: 0 0 0 0;
+    padding: 10px 10px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    color: black;
+    font-weight: normal;
+    background-color: silver;
+    width: 980px;
+    text-align: center;
+}
+
+.content {
     padding: 5px;
-    background-color: white;
-    width: 1000px;
 }
 
 .column-1 {
@@ -97,6 +151,7 @@ body {
     padding: 0px;
     width: 190px;
 }
+
 .column-4-services {
     float: left;
     text-align-all: center;
@@ -108,15 +163,17 @@ body {
     padding: 0px;
     width: 190px;
 }
+
 .column-4-blue {
     float: left;
     text-align: left;
-    background-color: #BEE3FA;
     margin: 10px;
     padding-top: 0px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
+    border-radius: 10px;
+    background: #BEE3FA;
     width: 160px;
 }
 
@@ -132,58 +189,6 @@ body {
     height: 100%;
 }
 
-.orange_title{
-    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    color: #f56923;
-}
-
-.column-1-heading{
-    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    color: #f56923;
-}
-
-.blue_title{
-    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #2f99cd;
-}
-
-.orange_bodytext{
-    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-size: 10pt;
-    color: #FF4500;
-}
-
-.blue_bodytext{
-    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-size: 10pt;
-    font-weight: bold;
-    color: #3BB4DF;
-}
-
-.infographic_bodytext{
-    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-size: 9pt;
-    font-weight: normal;
-    text-align: left;
-    padding: 15px;
-    color: #000000;
-}
-
-.bottommessage{
-    clear: both;
-    margin: 0 0 0 0;
-    padding: 10px 10px;
-    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-size: 8pt;
-    color: black;
-    font-weight: normal;
-    background-color: silver;
-    width: 980px;
-}
-
 .share_images {
     width: 35px;
 }
@@ -197,20 +202,3 @@ body {
     padding: 0px;
     width: 160px;
 }
-
-.trademark_symbol{
-    font-size:xx-small;
-    font-weight: bold;
-    vertical-align:top;
-}
-
-.black-emphasis {
-    margin: 0;
-    background-color: #FFFFFF;
-    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-    font-size: 9pt;
-    font-weight: bold;
-    color: black;
-}
-
-
