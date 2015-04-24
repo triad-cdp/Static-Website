@@ -140,6 +140,18 @@ nav ul li {
     width: 200px;
 }
 
+.column-4 {
+    float: left;
+    text-align-all: center;
+    background-color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 190px;
+}
+
 .column-4-services {
     float: left;
     text-align-all: center;
