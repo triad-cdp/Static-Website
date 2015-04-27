@@ -146,9 +146,9 @@ nav ul li {
     background-color: #FFFFFF;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
     width: 190px;
 }
 
@@ -158,9 +158,9 @@ nav ul li {
     background-color: #FFFFFF;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 0px;
+    margin-left: 0;
     margin-right: 20px;
-    padding: 0px;
+    padding: 0;
     width: 190px;
 }
 
@@ -168,7 +168,7 @@ nav ul li {
     float: left;
     text-align: left;
     margin: 10px;
-    padding-top: 0px;
+    padding-top: 0;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
@@ -195,10 +195,10 @@ nav ul li {
 
 .social-media-shares{
     float: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: 30px;
     margin-right: 30px;
-    padding: 0px;
+    padding: 0;
     width: 160px;
 }
